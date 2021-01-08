@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "usersListWithRoutes"
+  "defaultProject": "usersListWithRoutes",
+  "cli": {
+    "analytics": false
+  }
 }
