@@ -7,6 +7,8 @@ import { HomeComponent } from './enithy/components/home/home.component';
 import { UsersComponent } from './enithy/components/users/users.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SingleUserComponent } from './enithy/components/single-user/single-user.component';
+import { PostsComponent } from './enithy/components/posts/posts.component';
+import { SinglePostComponent } from './enithy/components/single-post/single-post.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +16,8 @@ import { SingleUserComponent } from './enithy/components/single-user/single-user
     HomeComponent,
     UsersComponent,
     SingleUserComponent,
+    PostsComponent,
+    SinglePostComponent,
   ],
   imports: [
     BrowserModule,
