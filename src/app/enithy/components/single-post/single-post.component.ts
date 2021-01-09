@@ -9,6 +9,7 @@ import { Post } from 'src/app/models/Post';
 export class SinglePostComponent{
   @Input()
   post : Post;
-  constructor() { }
+  constructor() {
+   }
 
 }
