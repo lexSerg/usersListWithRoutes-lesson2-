@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { CommentsComponent } from './enithy/components/comments/comments.component';
+import { HomeComponent } from './enithy/components/home/home.component';
 
 import { PostsComponent } from './enithy/components/posts/posts.component';
 import { UsersComponent } from './enithy/components/users/users.component';
