@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+.element-wrap {
+    border: 1px solid  black;
+    margin-bottom: 2px;
+    background-color: darkgrey;
+}
+.element-wrap .element-content {
+    padding: 10px;
+}
