@@ -3,6 +3,7 @@
     border: 1px solid  black;
     margin-bottom: 2px;
     background-color: darkgrey;
+    text-align: center;
 }
 .element-wrap .element-content {
     padding: 10px;

@@ -1,6 +1,7 @@
 .btn-comment-toggle{
     padding: .2rem;
     margin: .2rem;
+    text-align:  center;
 }
 .element-wrap .user-posts{
     margin: 2rem;

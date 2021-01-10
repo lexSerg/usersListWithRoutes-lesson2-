@@ -4,4 +4,8 @@
         <p>userId : {{post?.userId}} </p>
         <p>title : {{post?.title}} </p>
     </div>
+    <button (click)='showPostComments()' [textContent]='btnTitle'>Show all comments</button>
+    <div class="comment-in-post-wrap" *ngIf='commentToggle'>
+        <app-single-comment [comment]=iter *ngFor='let iter of postComments'></app-single-comment>
+    </div>
 </div>

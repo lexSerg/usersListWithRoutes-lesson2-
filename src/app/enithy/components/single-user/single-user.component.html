@@ -11,7 +11,7 @@
         <p>Company</p>
         <p>Company name: {{user.company.name}}, catchPhrase: {{user.company.catchPhrase}}, bs: {{user.company.bs}} </p> 
     </div>
-    <button class="btn-comment-toggle" (click)='showUserComments()' [textContent]='btnTitle'></button>
+    <button class="btn-comment-toggle" (click)='showUserPosts()' [textContent]='btnTitle'></button>
     <div class="user-posts" *ngIf='postToggle'>
         <app-single-post  [post]=iter *ngFor='let iter of userPosts'></app-single-post>
     </div>

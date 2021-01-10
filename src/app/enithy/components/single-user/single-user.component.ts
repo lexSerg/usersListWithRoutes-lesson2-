@@ -20,10 +20,9 @@ export class SingleUserComponent  {
       this.allUserPosts = value;
     })
   } 
-  showUserComments() {
+  showUserPosts() {
     this.postToggle = !this.postToggle;
     this.userPosts = this.allUserPosts.filter(iter => iter.userId === this.user.id);
     !this.postToggle? this.btnTitle = 'Show user posts' : this.btnTitle = 'Hide user posts';
-    
   }
 }
